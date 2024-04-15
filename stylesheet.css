@@ -1,0 +1,158 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+    min-height: 100vh;
+    overscroll-behavior: none;
+    background: rgb(242, 242, 237);
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.top-slider{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    margin: 10px 10px;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.top-slider > span {
+    display: inline-block;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    100% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.image-section img{
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.navbar-Container{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 900;
+    background-color: rgb(242, 242, 237);
+    padding: 6px 0px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1440px;
+    padding: 0px 12px 8px;
+    background: transparent;
+}
+
+.logo{
+    width: 4.5rem;
+}
+.element h1{    
+    font-size: 3.5rem;
+}
+.buy-button{
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: 1.75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Indie Flower", cursive;
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.text-section{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 54px;
+}
+
+.tokenomic{
+    width: 70%;
+    margin: auto;
+}
+.tokenomic p{
+    width: 100%;
+   
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 54px;
+}
+
+.tokenomic ul{
+    width: 100%;
+    margin: auto;
+    margin: 24px 0px;
+}
+
+.tokenomic ul ol{
+    font-size: 32px;
+    text-align: left;
+}
+
+.playButtonHolder {
+    position: fixed;
+    bottom: 7%;
+    right: 3%;
+    width: 4%;
+}
+
+.playButtonHolder img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.playButtonHolder:hover {
+	transform: scale(1.25); 
+}

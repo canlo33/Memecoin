@@ -1,0 +1,108 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<div class="top-slider">
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+    <span>(LOGO) Pepedog is the patron saint of meme markets.</span>
+</div>
+
+<nav class="navbar-container">
+    <div class="navbar">
+        <div class="element"><img class="logo" src="img/dog.png"></div>
+        <div class="element"><h1>$PEPEDOGS</h1></div>
+        <div class="element">
+        <button class="buy-button" role="button">BUY</button>
+        </div>
+    </div>
+</nav>
+
+<div class="image-section">
+    <img src="img/mcga.gif">
+</div>
+
+<div class="text-section">
+    Pep the cat is the patron saint of meme markets. Pepcat's design is based on Apu Apustaja and sometimes Pepe the Frog, created in cat style. This variant is often posted on 4chan's /biz/ board and apu as two sides of the trading market.
+</div>
+
+<div class="image-section">
+    <img src="img/moon.gif">
+</div>
+
+<div class="tokenomic">
+    <p>HOW DO I BUY $PEPEDOGS?</p>
+    <ul>
+        <ol>1. Convert some money into Solana ($SOL) through a centralized exchange like Binance or Coinbase.</ol>
+        <ol>2. Create a brand new wallet with Phantom App, keep your seed phrase safe, write it down on a piece of paper you can keep safety!</ol>
+        <ol>3. Copy the Solana wallet address and send some Solana from your exchange account to your phantom wallet address.</ol>
+        <ol>4. Now visit an exchange platform such as <a href="https://raydium.io" target="_blank">Raydium</a> (via our buy button if you're having trouble) and head over to 'Swap.' Connect your phantom wallet when prompted.</ol>
+        <ol>5. Swap the Solana in your wallet for PEPCAT, you can find PEPCAT as an option by pasting in the contract address below:<br><label style="font-weight: bold;">AbDm7PoYahHX12Huuq5jcg6ezpBF6nFKgLwgHTPTgeZs</label></ol>
+        <p class="">Congratulations, you are now a future MULLIONAIRE.</p>
+        <p style="font-weight: bold; margin-top: 5px;">CA: AbDm7PoYahHX12Huuq5jcg6ezpBF6nFKgLwgHTPTgeZs</p>
+    </ul>
+</div>
+
+<div class="playButtonHolder">
+    <img src="img/playButton.png">
+</div>
+
+<audio id="myAudio">
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    // Your audio element and play/pause button
+    const audio = document.getElementById("myAudio");
+    const playButton = document.querySelector(".playButtonHolder img");
+
+    // set the default state of the button to 'play'
+    isPlaying = false;
+    playButton.src = "img/playButton.png";
+
+    // Add a click event listener to the play/pause button
+    playButton.addEventListener("click", function () {
+        if (isPlaying) {
+            // Pause the audio and change the button to 'play'
+            audio.pause();
+            playButton.src = "img/playButton.png";
+        } else {
+            // Play the audio and change the button to 'pause'
+            audio.play();
+            playButton.src = "img/pauseButton.png";
+        }
+        // Toggle the value of isPlaying
+        isPlaying = !isPlaying;
+    });
+
+    // Listen for the audio's "ended" event and reset the state
+    audio.addEventListener("ended", function () {
+        playButton.src = "img/playButton.png";
+        isPlaying = false;
+    });
+</script>
+</body>
+</html>
