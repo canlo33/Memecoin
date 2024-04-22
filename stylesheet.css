@@ -17,7 +17,7 @@ html, body{
 }
 
 .logo-img{
-    width: 25px;
+    width: 18px;
     position: absolute;
 }
 
@@ -106,8 +106,34 @@ html, body{
     width: auto;
 }
 
+.desc-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.left-side img{
+    width: 100%;
+}
+
+.right-side{
+    width: 50%;
+    margin: auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 30px;
+}
+
 .text-section{
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 40px;
     font-style: normal;
@@ -120,12 +146,29 @@ html, body{
 }
 
 .tokenomic{
+    width: 100%;   
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 54px;
+    margin-top: 150px;
+}
+
+.tokenomic ul{
+    width: 20%;
+    margin: auto;
+    font-size: 32px;
+}
+
+.how-to{
     width: 70%;
     margin: auto;
 }
-.tokenomic p{
-    width: 100%;
-   
+.how-to p{
+    width: 100%;   
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
@@ -135,15 +178,17 @@ html, body{
     font-size: 54px;
 }
 
-.tokenomic ul{
+.how-to ul{
     width: 100%;
     margin: auto;
     margin: 24px 0px;
+
 }
 
-.tokenomic ul ol{
+.how-to ul ol{
     font-size: 32px;
     text-align: left;
+    margin-top: 15px;
 }
 
 .playButtonHolder {
