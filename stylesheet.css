@@ -6,7 +6,7 @@ html, body{
     overscroll-behavior: none;
     background: #6DE876;
     text-align: center;
-    font-family: "Indie Flower", cursive;
+    font-family: "Wendy One", Sans-serif;
     scroll-behavior: smooth;
     overscroll-behavior: none;
 
@@ -89,7 +89,7 @@ html, body{
     color: #FFFFFF;
     cursor: pointer;
     flex: 0 0 auto;
-    font-family: "Indie Flower", cursive;
+    font-family: "Wendy One", Sans-serif;
     font-size: 2.125rem;
     font-weight: 600;
     line-height: 1.5rem;
