@@ -118,6 +118,7 @@ html, body{
 
 .image-section {
     width: 30%;
+    margin-left: -5%;
 }
 
 .image-section img{
@@ -134,27 +135,27 @@ html, body{
     letter-spacing: 1px;
     color: rgb(0, 0, 0);
     text-align: left;
-    font-size: 32px;
+    font-size: 1.75vw;
 }
 
 .tokenomic{
-    width: 50%;   
+    width: 60%;   
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
     letter-spacing: 1px;
     color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 54px;
-    margin-top: 5%;
+    font-size: 3.5vw;
 }
 
 .tokenomic ul{
-    width: 40%;
+    width: 100%;
     margin: auto;
-    font-size: 32px;
+    font-size: 2.5vw;
     line-height: 110%;
+    list-style-position: inside;
 }
+
 
 .desc-section{
     display: flex;
@@ -175,11 +176,10 @@ html, body{
     width: 100%;   
     font-style: normal;
     font-weight: 500;
-    line-height: 125%;
     letter-spacing: 1px;
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 45px;
+    font-size: 2.5vw;
 }
 
 .how-to ul{
@@ -190,7 +190,7 @@ html, body{
 }
 
 .how-to ul ol{
-    font-size: 32px;
+    font-size: 1.2vw;
     text-align: left;
     margin-top: 15px;
 }
