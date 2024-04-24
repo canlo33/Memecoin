@@ -195,10 +195,25 @@ html, body{
     margin-top: 15px;
 }
 
+.socials{
+    text-align: center;
+    background: #1d1e18ce;
+}
+
+.socials a {
+    width: 5rem;
+    padding-left: 1%;
+    text-decoration: none;
+}
+
+.socials img {
+    width: 5rem;
+}
+
 .playButtonHolder {
     position: fixed;
-    bottom: 3%;
-    right: 1.5%;
+    bottom: 8%;
+    right: 3%;
     width: 4%;
 }
 
