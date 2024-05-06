@@ -138,6 +138,16 @@ html, body{
     font-size: 1.75vw;
 }
 
+.text-section p{
+    text-align: center;
+}
+
+.text-section ul{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.35vw;
+}
+
 .tokenomic{
     width: 60%;   
     font-style: normal;
